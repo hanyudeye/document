@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>vuejs</title>
+    <script src="lib/jquery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="lib/vue.js"></script>
+    <!-- <link href="../lib/bootstrap.css" rel="stylesheet"> -->
+  </head>
+  <body>
+      <div id="app">
+          <!-- <input v-model="message" placeholder="edit me"> -->
+          <!-- <p>Message is: {{ msg }}</p> -->
+          <!-- <span v-once>这个将不会改变: {{ message }}</span> -->
+
+          <!-- <p><div v-if="1 === 1">Greate</div></p> -->
+          <ul>
+              <li  v-for="m in movies">
+                  {{m}}
+              </li>
+          </ul>
+          <h3>数字累计： {{counter}}</h3>
+
+          <button @click="add">+</button>
+          <button v-on:click="min">-</button>
+
+          <span v-bind:title="message">
+              鼠标悬停信息！
+          </span>
+
+          <ol>
+              <todo-item
+                  v-for="item in groceryList"
+                  v-bind:todo="item"
+                  v-bind:key="item.id">
+              </todo-item>
+          </ol>
+
+          <local-components></local-components>
+      </div>
+      <div>
+      </div>
+
+    <script src="js.js"></script>
+    <script src="vue.vue"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+/.#sql.sql
+/.ac-php-conf.json
+/.projectile
+/.tern-port
+/.tern-project
+/c/*.out
+/js/node_modules/
+/js/lib/
