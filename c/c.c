@@ -10,11 +10,6 @@
 
     char buf[LEN];
 
-    /* int fd=open("asm.S",O_RDONLY); */
-    /* while( read(fd,buf,sizeof(buf)) >0){ */
-    /*   write(STDOUT_FILENO,buf,sizeof(buf)); */
-    /* } */
-
     int s= creat("helloworld",S_IRWXU | S_IRWXG);
     if(s != -1){
       printf("create sucess \n");
