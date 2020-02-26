@@ -3,8 +3,9 @@
 
 int int main(int argc, char *argv[])
 {
-#pragma omp parallel{
-  printf("I am a parallel region\n");
-}
+  pragmaomp parallel{
+    printf("I am a parallel region\n");
+  }
   return 0;
 }
+

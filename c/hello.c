@@ -1,8 +1,16 @@
-#include <stdio.h>
+#include "header.h"
 
-int main(int argc, char *argv[])
-{
+/* 文件属性操作 */
+void file_stat(){
+  const char * filename="test";
+  struct stat * filestat;
+  int rstat=stat(filename,filestat);
+  printf("file stat return value is %d \n ",rstat);
 
-  print
-  return 0;
+
+}
+
+int main(){
+  file_stat();
+
 }

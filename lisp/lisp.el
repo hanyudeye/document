@@ -31,3 +31,9 @@
 "This is a test."
 :group 'wm
   )
+
+(defun my-youdao-fanyi()
+  (interactive)
+  (my-youdao-dictionary-search-at-point+)
+  )
+
