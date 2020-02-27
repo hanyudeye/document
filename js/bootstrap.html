@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>bootstrap</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- 模样代码文件 -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h1>标题1</h1>
+        <p>
+          <span class="glyphicon glyphicon-search"></span>
+          春天来了
+        </p>
+      </section>
+      <section>
+        <h1>标题2</h1>
+        <p>万物复苏</p>
+      </section>
+      <section>
+        <p class="lead">
+          内置模块
+        </p>
+        <p>
+          朋友们好
+        </p>
+        <strong>春</strong><ins>天</ins><i>在</i><u>哪</u>里啊
+      </section>
+      <section>
+        <table class="table table-striped ">
+          <tr>
+            <td>名字</td>
+            <td>性别</td>
+            <td>生日</td>
+            <td>住址</td>
+          </tr>
+          <tr>
+            <td>名字</td>
+            <td>性别</td>
+            <td>生日</td>
+            <td>住址</td>
+          </tr>
+          <tr>
+            <td>名字</td>
+            <td>性别</td>
+            <td>生日</td>
+            <td>住址</td>
+          </tr>
+        </table>
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="" />
+                Option one is this and that&mdash;be sure to include why it's great
+            </label>
+            <p>
+                <button type="button" class="btn btn-primary btn-lg">
+                    （大按钮）Large button
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    （大按钮）Large button
+                </button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary">
+                    （默认尺寸）Default button
+                </button>
+                <button type="button" class="btn btn-default">
+                    （默认尺寸）Default button
+                </button>
+            </p>
+        </div>
+      </section>
+      <section>
+          <form class="form-inline">
+              <div class="form-group">
+                  <label class="col-md-2">邮件</label>
+                  <input type="email" class="form-control col-md-4" />
+                  <label class="col-md-2">名字</label>
+                  <input type="text" class="form-control col-md-4" />
+          </div>
+        </form>
+      </section>
+      <section>
+          <div>
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Dropdown
+                  <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+              </ul>
+          </div>
+          <div>
+              图标使用 <img src="node_modules/bootstrap-icons/icons/bootstrap.svg" alt="" width="32" height="32" title="Bootstrap">
+              <img src="node_modules/bootstrap-icons/icons/box-arrow-up.svg" alt="" width="32" height="32" title="none">
+          </div>
+          <div>
+              <label>警告</label>
+              <div class="alert alert-primary" role="alert"> A simple primary alert—check it out! </div>
+              <div class="alert alert-success" role="alert">...</div>
+              <div class="alert alert-info" role="alert">...</div>
+              <div class="alert alert-warning" role="alert">...</div>
+              <div class="alert alert-warning alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <div>hello</div>
+              </div>
+
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="vue.html"></iframe>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-body">
+                      Basic panel example
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <!-- Default panel contents -->
+                  <div class="panel-heading">Panel heading</div>
+                  <div class="panel-body">
+                      <p>...</p>
+                  </div>
+
+                  <!-- List group -->
+                  <ul class="list-group">
+                      <li class="list-group-item">Cras justo odio</li>
+                      <li class="list-group-item">Dapibus ac facilisis in</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <!-- 依赖 -->
+      <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+    </div>
+  </body>
+</html>
