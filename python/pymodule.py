@@ -1,11 +1,7 @@
-# 这个是一个杂乱的模块
-class animal:
-    def show():
-        print("i am animal")
+# 自定义模块
+print('模块被加载.....')
 
-name="aming"
-__myname__="aming"
-_myname="aming"
+print('加载完毕！')
 
-def wel():
-    print("i am wel function")
+def info():
+    print("模块信息")

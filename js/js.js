@@ -33,5 +33,10 @@
 //     )
 // })
 
+// document.write("Hello,World");
+// 测试
+console.log("Hello,World");
 
-var a = count("niao");
+$(function(){
+console.log("你哈哈哦");
+});

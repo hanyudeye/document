@@ -1,12 +1,12 @@
-import os
-import os.path
-import time
+'''
+author: aming
+date:2020 年 08 月 06 日
 
-#class used to handle one application instance mechanism
+行: 显示器显示文字
+'''
 
-class ApplicationInstance:
-    #specify the file used to save the application instance pid
-    def __init__(self,pid_file):
-        self.pid_file = pid_file
-        self.check()
-        self.startApplication()
+print('hello,world!')
+
+print('你好，世界！')
+print('你好','世界',sep='，',end='！')
+print('goodbye','world',sep=',',end='!\n')
