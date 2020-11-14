@@ -1,3 +1,5 @@
+// 简单的服务器
+
 var http = require('http');
 
 http.createServer(function(request, response) {
@@ -8,7 +10,7 @@ http.createServer(function(request, response) {
     // console.log(request.method);
     // console.log(request.headers);
 
-    // console.log(response.method);
-
-    response.end('Hello World\n');
-}).listen(8124);
+    // response.write("");
+    con
+    response.end('Hello World\n my name is aming\n');
+}).listen(8888);

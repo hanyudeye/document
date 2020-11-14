@@ -1,1 +1,0 @@
-# 关闭scrapy自带的ROBOTSTXT_OBEY功能，在setting找到这个变量，设置为False即可解决。
